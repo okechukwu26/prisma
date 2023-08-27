@@ -10,13 +10,13 @@
     "format": "prisma format",
     "migration": "npx prisma migrate dev --name",
     "reset": "npx prisma migrate reset",
-    "test":"jest"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@prisma/client": "^5.2.0",
+    "@prisma/client": "^5.0.0",
     "@types/jest": "^29.5.4",
     "@types/supertest": "^2.0.12",
     "bcryptjs": "^2.4.3",
@@ -36,7 +36,7 @@
   "devDependencies": {
     "@types/express": "^4.17.17",
     "@types/node": "^20.5.6",
-    "prisma": "^5.2.0",
+    "prisma": "^5.0.0",
     "typescript": "^5.2.2"
   }
 }
