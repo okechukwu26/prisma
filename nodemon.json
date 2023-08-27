@@ -1,0 +1,7 @@
+{"nodemonConfig": {
+    "ext": "js,json,ts",
+    "exec": "ts-node ./src/server.ts"
+  },
+  "scripts": {
+    "dev": "nodemon"
+  }}
